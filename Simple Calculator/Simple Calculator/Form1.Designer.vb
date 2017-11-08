@@ -154,7 +154,7 @@ Partial Class Form1
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(145, 352)
+        Me.btnClear.Location = New System.Drawing.Point(139, 352)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(72, 26)
         Me.btnClear.TabIndex = 13
