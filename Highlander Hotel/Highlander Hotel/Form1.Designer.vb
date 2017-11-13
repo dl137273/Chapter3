@@ -45,14 +45,14 @@ Partial Class Form1
         Me.lblTotalCharges = New System.Windows.Forms.Label()
         Me.lblTax = New System.Windows.Forms.Label()
         Me.lblRoomCharges = New System.Windows.Forms.Label()
-        Me.lblRoomChangesAnswer = New System.Windows.Forms.Label()
+        Me.lblRoomChargesAnswer = New System.Windows.Forms.Label()
         Me.gbTotalCharges = New System.Windows.Forms.GroupBox()
-        Me.lbladditionalChangesAnswer = New System.Windows.Forms.Label()
+        Me.lbladditionalChargesAnswer = New System.Windows.Forms.Label()
         Me.lblSubtotalAnswer = New System.Windows.Forms.Label()
-        Me.lblTotalChangesAnswer = New System.Windows.Forms.Label()
+        Me.lblTotalChargesAnswer = New System.Windows.Forms.Label()
         Me.lblTaxAnswer = New System.Windows.Forms.Label()
-        Me.txtTodaysDateAnswer = New System.Windows.Forms.TextBox()
-        Me.txtTimeAnswer = New System.Windows.Forms.TextBox()
+        Me.lblTodaysDateAnswer = New System.Windows.Forms.Label()
+        Me.lblTimeAnswer = New System.Windows.Forms.Label()
         Me.gbRoomInformation.SuspendLayout()
         Me.gbAdditionalCharges.SuspendLayout()
         Me.gbTotalCharges.SuspendLayout()
@@ -266,21 +266,21 @@ Partial Class Form1
         Me.lblRoomCharges.TabIndex = 4
         Me.lblRoomCharges.Text = "Room Charges:"
         '
-        'lblRoomChangesAnswer
+        'lblRoomChargesAnswer
         '
-        Me.lblRoomChangesAnswer.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblRoomChangesAnswer.Location = New System.Drawing.Point(202, 15)
-        Me.lblRoomChangesAnswer.Name = "lblRoomChangesAnswer"
-        Me.lblRoomChangesAnswer.Size = New System.Drawing.Size(88, 21)
-        Me.lblRoomChangesAnswer.TabIndex = 9
+        Me.lblRoomChargesAnswer.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblRoomChargesAnswer.Location = New System.Drawing.Point(202, 15)
+        Me.lblRoomChargesAnswer.Name = "lblRoomChargesAnswer"
+        Me.lblRoomChargesAnswer.Size = New System.Drawing.Size(88, 21)
+        Me.lblRoomChargesAnswer.TabIndex = 9
         '
         'gbTotalCharges
         '
-        Me.gbTotalCharges.Controls.Add(Me.lbladditionalChangesAnswer)
+        Me.gbTotalCharges.Controls.Add(Me.lbladditionalChargesAnswer)
         Me.gbTotalCharges.Controls.Add(Me.lblSubtotalAnswer)
-        Me.gbTotalCharges.Controls.Add(Me.lblTotalChangesAnswer)
+        Me.gbTotalCharges.Controls.Add(Me.lblTotalChargesAnswer)
         Me.gbTotalCharges.Controls.Add(Me.lblTaxAnswer)
-        Me.gbTotalCharges.Controls.Add(Me.lblRoomChangesAnswer)
+        Me.gbTotalCharges.Controls.Add(Me.lblRoomChargesAnswer)
         Me.gbTotalCharges.Controls.Add(Me.lblRoomCharges)
         Me.gbTotalCharges.Controls.Add(Me.lblTax)
         Me.gbTotalCharges.Controls.Add(Me.lblTotalCharges)
@@ -293,13 +293,13 @@ Partial Class Form1
         Me.gbTotalCharges.TabStop = False
         Me.gbTotalCharges.Text = "Total Charges"
         '
-        'lbladditionalChangesAnswer
+        'lbladditionalChargesAnswer
         '
-        Me.lbladditionalChangesAnswer.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lbladditionalChangesAnswer.Location = New System.Drawing.Point(202, 42)
-        Me.lbladditionalChangesAnswer.Name = "lbladditionalChangesAnswer"
-        Me.lbladditionalChangesAnswer.Size = New System.Drawing.Size(88, 21)
-        Me.lbladditionalChangesAnswer.TabIndex = 13
+        Me.lbladditionalChargesAnswer.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lbladditionalChargesAnswer.Location = New System.Drawing.Point(202, 42)
+        Me.lbladditionalChargesAnswer.Name = "lbladditionalChargesAnswer"
+        Me.lbladditionalChargesAnswer.Size = New System.Drawing.Size(88, 21)
+        Me.lbladditionalChargesAnswer.TabIndex = 13
         '
         'lblSubtotalAnswer
         '
@@ -309,13 +309,13 @@ Partial Class Form1
         Me.lblSubtotalAnswer.Size = New System.Drawing.Size(88, 21)
         Me.lblSubtotalAnswer.TabIndex = 12
         '
-        'lblTotalChangesAnswer
+        'lblTotalChargesAnswer
         '
-        Me.lblTotalChangesAnswer.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblTotalChangesAnswer.Location = New System.Drawing.Point(202, 134)
-        Me.lblTotalChangesAnswer.Name = "lblTotalChangesAnswer"
-        Me.lblTotalChangesAnswer.Size = New System.Drawing.Size(88, 21)
-        Me.lblTotalChangesAnswer.TabIndex = 11
+        Me.lblTotalChargesAnswer.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblTotalChargesAnswer.Location = New System.Drawing.Point(202, 134)
+        Me.lblTotalChargesAnswer.Name = "lblTotalChargesAnswer"
+        Me.lblTotalChargesAnswer.Size = New System.Drawing.Size(88, 21)
+        Me.lblTotalChargesAnswer.TabIndex = 11
         '
         'lblTaxAnswer
         '
@@ -325,27 +325,31 @@ Partial Class Form1
         Me.lblTaxAnswer.Size = New System.Drawing.Size(88, 21)
         Me.lblTaxAnswer.TabIndex = 10
         '
-        'txtTodaysDateAnswer
+        'lblTodaysDateAnswer
         '
-        Me.txtTodaysDateAnswer.Location = New System.Drawing.Point(173, 48)
-        Me.txtTodaysDateAnswer.Name = "txtTodaysDateAnswer"
-        Me.txtTodaysDateAnswer.Size = New System.Drawing.Size(238, 20)
-        Me.txtTodaysDateAnswer.TabIndex = 14
+        Me.lblTodaysDateAnswer.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.lblTodaysDateAnswer.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblTodaysDateAnswer.Location = New System.Drawing.Point(182, 48)
+        Me.lblTodaysDateAnswer.Name = "lblTodaysDateAnswer"
+        Me.lblTodaysDateAnswer.Size = New System.Drawing.Size(244, 23)
+        Me.lblTodaysDateAnswer.TabIndex = 12
         '
-        'txtTimeAnswer
+        'lblTimeAnswer
         '
-        Me.txtTimeAnswer.Location = New System.Drawing.Point(173, 75)
-        Me.txtTimeAnswer.Name = "txtTimeAnswer"
-        Me.txtTimeAnswer.Size = New System.Drawing.Size(238, 20)
-        Me.txtTimeAnswer.TabIndex = 15
+        Me.lblTimeAnswer.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.lblTimeAnswer.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblTimeAnswer.Location = New System.Drawing.Point(182, 74)
+        Me.lblTimeAnswer.Name = "lblTimeAnswer"
+        Me.lblTimeAnswer.Size = New System.Drawing.Size(244, 23)
+        Me.lblTimeAnswer.TabIndex = 13
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(463, 460)
-        Me.Controls.Add(Me.txtTimeAnswer)
-        Me.Controls.Add(Me.txtTodaysDateAnswer)
+        Me.Controls.Add(Me.lblTimeAnswer)
+        Me.Controls.Add(Me.lblTodaysDateAnswer)
         Me.Controls.Add(Me.lblTime)
         Me.Controls.Add(Me.lblTodaysDate)
         Me.Controls.Add(Me.gbAdditionalCharges)
@@ -390,13 +394,13 @@ Partial Class Form1
     Friend WithEvents lblTotalCharges As System.Windows.Forms.Label
     Friend WithEvents lblTax As System.Windows.Forms.Label
     Friend WithEvents lblRoomCharges As System.Windows.Forms.Label
-    Friend WithEvents lblRoomChangesAnswer As System.Windows.Forms.Label
+    Friend WithEvents lblRoomChargesAnswer As System.Windows.Forms.Label
     Friend WithEvents gbTotalCharges As System.Windows.Forms.GroupBox
-    Friend WithEvents lbladditionalChangesAnswer As System.Windows.Forms.Label
+    Friend WithEvents lbladditionalChargesAnswer As System.Windows.Forms.Label
     Friend WithEvents lblSubtotalAnswer As System.Windows.Forms.Label
-    Friend WithEvents lblTotalChangesAnswer As System.Windows.Forms.Label
+    Friend WithEvents lblTotalChargesAnswer As System.Windows.Forms.Label
     Friend WithEvents lblTaxAnswer As System.Windows.Forms.Label
-    Friend WithEvents txtTodaysDateAnswer As System.Windows.Forms.TextBox
-    Friend WithEvents txtTimeAnswer As System.Windows.Forms.TextBox
+    Friend WithEvents lblTodaysDateAnswer As System.Windows.Forms.Label
+    Friend WithEvents lblTimeAnswer As System.Windows.Forms.Label
 
 End Class
