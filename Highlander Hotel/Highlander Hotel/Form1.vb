@@ -31,7 +31,7 @@
 
             ' Calculate and display the subtotal.
             decSubtotal = decRoomCharges + decAddCharges
-            lblSubtotal.Text = decSubtotal.ToString("c")
+            lblSubtotalAnswer.Text = decSubtotal.ToString("c")
 
             ' Calculate and display the tax.
             decTax = decSubtotal * decTAX_RATE
@@ -69,10 +69,10 @@
         lblTotalChargesAnswer.Text = String.Empty
 
         ' Get today's date from the operating system and display it.
-        txtTodaysDateAnswer.Text = Now.ToString("D")
+        lblTodaysDateAnswer.Text = Now.ToString("D")
 
         ' Get the current time from the operating system and display it.
-        txtTimeAnswer.Text = Now.ToString("T")
+        lblTimeAnswer.Text = Now.ToString("T")
 
         ' Reset the lblTotalChargesAnswer control's colors.
         lblTotalChargesAnswer.BackColor = SystemColors.Control
