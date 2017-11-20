@@ -104,7 +104,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
-        Me.Text = "c"
+        Me.Text = "Celcius to Farenheit"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
